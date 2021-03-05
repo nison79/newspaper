@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "newspaper",
+    author: "George Nikoglou"
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -20,17 +21,15 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images`,
       },
-      __key: "images",
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
       },
-      __key: "pages",
     },
   ],
 };

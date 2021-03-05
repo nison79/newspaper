@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+$blue:#0B4F6C;
+$lightblue:#00A5CF;
+$white:#FBFBFF;
+$black:#040F16;
+
+
+h1 {
+  font-size: 3rem;
+  color:$lightblue;
+}
