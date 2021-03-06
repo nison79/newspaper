@@ -8,7 +8,10 @@ const Navbar = () => {
     <div>
       <nav>
         <Link to="/">
-              <StaticImage src="../images/logo.png" 
+              <StaticImage
+              className= ".logo"
+              src="../images/logo90.png" 
+              alt="logo"
               width={80}
               fit="cover"
               />

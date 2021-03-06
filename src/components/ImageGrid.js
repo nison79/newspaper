@@ -9,8 +9,8 @@ import './ImageGrid.scss'
 
 const ImageGrid = () => {
 
-  const widthLand= 800
-  const heightLand = 600
+  // const widthP= 400
+  // const heightP = 400
 
   return (
     <Layout>
@@ -19,14 +19,19 @@ const ImageGrid = () => {
       <div className="archive">
         <article className="article">
         <StaticImage 
-        src='../images/gallery/roses.jpg'
+        src='../images/gallery/olive.jpg'
         alt="portrait"
         aspectRatio={4/3}
         fit="cover"
         layout="constrained"
         quality={100}
+        // width={widthP}
+        // height={heightP}
         />
         <h2>STREET</h2>
+        <p>The shots that can capture the life in the city. The key is always to be creative and see the unnatural in the nature of the enviroment.
+        Those strange moments are everything.
+        </p>
         </article>
 
         <article className="article">
@@ -38,6 +43,7 @@ const ImageGrid = () => {
         quality={100}
         />
         <h2>PORTRAIT</h2>
+        <p>People are unique. People are beautiful. People are mysterious creatures. I want to expose those facts, the bright side of life , the bright side of people.</p>
         </article>
 
         <article className="article">
@@ -50,6 +56,7 @@ const ImageGrid = () => {
         
         />
         <h2>BLACK/WHITE</h2>
+        <p>The color does not matter, but the feelings of the scenery. Black and White shots have amazing power and we want to be servants of this power.</p>
         </article>
 
         <article className="article">
@@ -61,6 +68,7 @@ const ImageGrid = () => {
         quality={100}
         />
         <h2>NATURE</h2>
+        <p>Nature has many faces. I always attracted by the beauty and the uniqueness of everything that surrounds me. I want to be part of that, I want to explore the unknown of nature. </p>
         </article>
       </div>
     </Layout>

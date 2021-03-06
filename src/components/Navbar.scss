@@ -1,9 +1,15 @@
 nav {
   display:flex;
   align-items: center;
-  padding:1rem 2rem;
+  justify-content: space-between;
+  padding:1rem 2rem 4rem 0rem;;
+  
 
 }
+
+.logo{
+  transform: rotate(90deg);
+  }
 
 
 ul {
@@ -16,10 +22,12 @@ ul {
     margin-right:2rem;
     font-family: 'Poppins';
     font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
     
     a{
       text-decoration: none;
-      color:black;
+      color:rgb(198, 198, 198);
     }
     
   }

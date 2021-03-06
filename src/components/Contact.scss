@@ -1,4 +1,4 @@
-.archive {
+.wrapper {
 
   max-width:2500px;
   padding:0rem 10rem ;
@@ -8,13 +8,13 @@
   grid-auto-flow: dense;
 }
 
-.article {
-  position:relative;
+.content {
+  // position:relative;
   h2 {
-    position:absolute;
+    // position:absolute;
     color:white;
-    top:50px;
-    right:8px;
+    // top:50px;
+    // right:8px;
     font-size:2.5rem;
     font-family:'Poppins';
     font-weight:200;
@@ -23,14 +23,15 @@
 
   p {
     max-width:32rem;
-    font-size:1rem;
+    font-size:1.2rem;
     font-family:'Poppins';
     font-weight:200;
     color:white;
-    padding:0rem 2rem;
-    position:absolute;
-    bottom:24px;
-    left:8px;
+    padding: 0.2rem;
+    margin-top:0.5rem;
+    // position:absolute;
+    // bottom:24px;
+    // left:8px;
 
   }
 }

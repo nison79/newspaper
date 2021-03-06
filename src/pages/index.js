@@ -10,7 +10,6 @@ import ImageGrid from '../components/ImageGrid'
 const IndexPage = () => {
   return (
     <div>
-      
       <ImageGrid />
     </div>
   )
