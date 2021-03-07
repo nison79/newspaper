@@ -1,5 +1,6 @@
 import * as React from "react"
 import './Contact.scss'
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 
@@ -13,9 +14,45 @@ const Contact = () => {
 
             <article className="content">
               
-              <p>address: P.Dimitriou 20 Arkadikos Drama/Greece</p>
-              <p>email: georgenison@gmail.com</p>
-              
+              <p><span>Address:</span> P.Dimitriou 20 Arkadikos Drama/Greece</p>
+              <p><span>Email:</span> georgenison@gmail.com</p>
+              <p className="social"><span>Social:</span>
+
+              <a target="_blank" 
+                  rel="noopener noreferrer" 
+                  href="https://www.instagram.com/georgenikoglou/">
+                <StaticImage 
+                src="../images/insta.png" 
+                alt="LinkedIn" 
+                width="40" 
+                className = "logo"
+                />
+              </a>
+
+
+              <a target="_blank" 
+                  rel="noopener noreferrer" 
+                  href="https://www.linkedin.com/in/george-nikoglou-54b24532/">
+                <StaticImage 
+                src="../images/linkedin.png" 
+                alt="LinkedIn" 
+                width="40"  
+                />
+              </a>
+
+                <a target="_blank" 
+                  rel="noopener noreferrer" 
+                  href="https://twitter.com/gnikoglou79">
+                <StaticImage 
+                src="../images/twitt.png" 
+                alt="LinkedIn"
+                className = "logotwitter"
+                width="40"
+                height="42"
+                />
+                </a>
+                
+              </p>
           </article>
 
       </div>

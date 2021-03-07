@@ -1,7 +1,7 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
 import './ImageGrid.scss'
 
 
@@ -17,28 +17,30 @@ const ImageGrid = () => {
   
       
       <div className="archive">
-        <article className="article">
-        <StaticImage 
-        src='../images/gallery/olive.jpg'
-        alt="portrait"
-        aspectRatio={4/3}
-        fit="cover"
-        layout="constrained"
-        quality={100}
-        
-        
-        // width={widthP}
-        // height={heightP}
-        />
-        <h2>STREET</h2>
-        <p>The shots that can capture the life in the city. The key is always to be creative and see the unnatural in the nature of the enviroment.
-        Those strange moments are everything.
-        </p>
-        </article>
+        <Link to="/street">
+          <article className="article">
+          <StaticImage 
+          src='../images/gallery/thess.jpg'
+          alt="portrait"
+          aspectRatio={4/3}
+          fit="cover"
+          layout="constrained"
+          quality={100}
+          
+          
+          // width={widthP}
+          // height={heightP}
+          />
+          <h2>STREET</h2>
+          <p>The shots that can capture the life in the city. The key is always to be creative and see the unnatural in the nature of the enviroment.
+          Those strange moments are everything.
+          </p>
+          </article>
+        </Link>
 
         <article className="article">
         <StaticImage 
-        src='../images/gallery/playg.jpg'
+        src='../images/gallery/stella.jpg'
         alt="portrait"
         aspectRatio={4/3}
         fit="cover"
@@ -50,7 +52,7 @@ const ImageGrid = () => {
 
         <article className="article">
         <StaticImage 
-        src='../images/gallery/airplane.jpg'
+        src='../images/gallery/bwelli.jpg'
         alt="portrait"
         aspectRatio={4/3}
         fit="cover"
@@ -64,7 +66,7 @@ const ImageGrid = () => {
 
         <article className="article">
         <StaticImage 
-        src='../images/gallery/flowers.jpg'
+        src='../images/gallery/field2.jpg'
         alt="portrait"
         aspectRatio={4/3}
         fit="cover"
