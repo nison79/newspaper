@@ -13,7 +13,7 @@ const ImageGrid = () => {
   // const heightP = 400
 
   return (
-    <Layout>
+    
   
       
       <div className="archive">
@@ -25,6 +25,8 @@ const ImageGrid = () => {
         fit="cover"
         layout="constrained"
         quality={100}
+        
+        
         // width={widthP}
         // height={heightP}
         />
@@ -54,6 +56,7 @@ const ImageGrid = () => {
         fit="cover"
         quality={100}
         
+        
         />
         <h2>BLACK/WHITE</h2>
         <p>The color does not matter, but the feelings of the scenery. Black and White shots have amazing power and we want to be servants of this power.</p>
@@ -71,7 +74,7 @@ const ImageGrid = () => {
         <p>Nature has many faces. I always attracted by the beauty and the uniqueness of everything that surrounds me. I want to be part of that, I want to explore the unknown of nature. </p>
         </article>
       </div>
-    </Layout>
+    
   )
 }
 
