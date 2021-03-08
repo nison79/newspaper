@@ -2,12 +2,12 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 
-import './ImageGridGallery.scss'
+import './ImageGridPortrait.scss'
 
 
 
 
-const ImageGridGallery = () => {
+const ImageGridPortrait = () => {
 
   // const widthP= 400
   // const heightP = 400
@@ -113,4 +113,4 @@ const ImageGridGallery = () => {
   )
 }
 
-export default ImageGridGallery
+export default ImageGridPortrait

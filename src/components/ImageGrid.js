@@ -38,17 +38,19 @@ const ImageGrid = () => {
           </article>
         </Link>
 
-        <article className="article">
-        <StaticImage 
-        src='../images/gallery/stella.jpg'
-        alt="portrait"
-        aspectRatio={4/3}
-        fit="cover"
-        quality={100}
-        />
-        <h2>PORTRAIT</h2>
-        <p>People are unique. People are beautiful. People are mysterious creatures. I want to expose those facts, the bright side of life , the bright side of people.</p>
-        </article>
+        <Link to="/portrait">
+          <article className="article">
+          <StaticImage 
+          src='../images/gallery/stella.jpg'
+          alt="portrait"
+          aspectRatio={4/3}
+          fit="cover"
+          quality={100}
+          />
+          <h2>PORTRAIT</h2>
+          <p>People are unique. People are beautiful. People are mysterious creatures. I want to expose those facts, the bright side of life , the bright side of people.</p>
+          </article>
+        </Link>
 
         <article className="article">
         <StaticImage 

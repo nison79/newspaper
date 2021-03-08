@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
-import ImageGridGallery from '../components/ImageGridGallery'
+import ImageGridStreet from '../components/ImageGridStreet'
 import '../pages/street.scss'
 
 const street = () => {
   return (
     <Layout>
     <h1>Street</h1>
-      <ImageGridGallery /> 
+      <ImageGridStreet /> 
     </Layout>
   )
 }

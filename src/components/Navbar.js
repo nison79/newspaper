@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav>
         <Link to="/">
               <StaticImage
-              className= ".logo"
+              className= "logo"
               src="../images/logo90.png" 
               alt="logo"
               width={80}

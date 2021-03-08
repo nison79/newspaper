@@ -3,13 +3,12 @@
   max-width:2500px;
   padding:0rem 10rem ;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
   grid-gap: 32px;
   grid-auto-flow: dense;
 }
 
 .content {
-  // position:relative;
   h2 {
     // position:absolute;
     color:white;
@@ -19,12 +18,12 @@
     font-family:'Poppins';
     font-weight:200;
 
-    :nth-child(3) {
-      margin-top:5rem;
-    }
-
+  }
+  :nth-child(3) {
+    margin-top:2rem;
   }
 
+  
   .logo {
     margin-right:1rem;
     margin-left:1rem;
@@ -35,12 +34,13 @@
   }
 
   p {
-    max-width:32rem;
+    
+    max-width:38rem;
     font-size:1.2rem;
     font-family:'Poppins';
     font-weight:200;
     color:white;
-    padding: 0.2rem;
+    padding: 0rem;
     margin-top:0.5rem;
     letter-spacing: 0.2rem;
     // position:absolute;
@@ -53,6 +53,8 @@
 
   }
 }
+
+
 
 
 
