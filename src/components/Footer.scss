@@ -1,19 +1,25 @@
 .box-footer {
+  margin-top:1rem;
   display: flex;
   justify-content: center;
   position:fixed;
+  padding:1rem;
   bottom:0;
-  right:50%;
+  left:0;
+  
 }
 
 
 p{
+  
   font-family: 'Poppins';
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color:white;
+  display:block;
 }
 
 span {
+  font-size: 1rem;
   color:rgb(152, 137, 255);
 }
