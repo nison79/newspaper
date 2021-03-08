@@ -25,7 +25,7 @@ const Contact = () => {
                   src="../images/insta.png" 
                   alt="LinkedIn" 
                   width="30" 
-                  className = "logo"
+                  className = "logoInsta"
                   />
                 </a>
 
