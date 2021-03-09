@@ -3,7 +3,11 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import './Navbar.scss'
 
+
+
 const Navbar = () => {
+  
+
   return (
     <div>
       <nav>
@@ -19,7 +23,7 @@ const Navbar = () => {
             </Link>
           <ul>
               <li>
-                <Link to="/contact">
+                <Link to="/contact" >
                   Contact
                 </Link>
               </li>
