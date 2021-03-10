@@ -1,0 +1,26 @@
+.box{
+  
+  display:grid;
+  place-items:center;
+  margin-top:5rem;
+}
+
+.text{
+  
+  font-size:1rem;
+  letter-spacing: 1rem;
+  @media (max-width:820px){
+    letter-spacing: 0.2rem;
+    
+  }
+}
+
+.subtext{
+  font-size:1rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  color:blueviolet;
+  margin-top:1rem;
+  text-decoration: none;
+  
+}

@@ -3,4 +3,16 @@ h1 {
   font-weight: 200;
   color:white;
   margin-left: 10rem;
+  animation: fade 2s  ease-in-out;
+
+  
+}
+
+@keyframes fade {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
 }

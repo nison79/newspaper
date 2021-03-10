@@ -6,7 +6,9 @@
   padding:1rem;
   bottom:0;
   left:0;
-  
+  @media(max-width:930px) {
+    position:relative;
+  }
 }
 
 
