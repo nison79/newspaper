@@ -3,7 +3,7 @@
   max-width:2500px;
   padding:0rem 10rem ;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   grid-gap: 32px;
   grid-auto-flow: dense;
 }
@@ -35,10 +35,13 @@
   }
 }
 
-// .article:nth-child(31n + 1) {
+// .article:nth-child(5) {
 //   grid-column: 1 / -1;
 // }
-// .article:nth-child(16n + 2) {
+// .article:nth-child(5) {
+//   grid-column: 1 /  1;
+// }
+//  .article:nth-child(16n + 2) {
 //   grid-column: -3 / -1;
 // }
 // .article:nth-child(16n + 10) {
@@ -47,7 +50,7 @@
 
 @media (max-width: 820px) {
   .archive {
-    padding:2rem;
+    padding:5rem;
   }
 }
 
