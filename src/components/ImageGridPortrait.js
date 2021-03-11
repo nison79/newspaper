@@ -96,6 +96,55 @@ const ImageGridPortrait = () => {
           quality={100}
           />
           </article>
+
+          <article className="article">
+          <StaticImage 
+          src='../images/portrait-gallery/stella-close.jpg'
+          alt="portrait"
+          aspectRatio={3/4}
+          fit="fill"
+          layout="constrained"
+          width={800}
+          quality={100}
+          />
+          </article>
+
+          <article className="article">
+          <StaticImage 
+          src='../images/portrait-gallery/george.jpg'
+          alt="portrait"
+          aspectRatio={3/4}
+          fit="fill"
+          layout="constrained"
+          width={800}
+          quality={100}
+          />
+          </article>
+
+          <article className="article">
+          <StaticImage 
+          src='../images/portrait-gallery/elpida.jpg'
+          alt="portrait"
+          aspectRatio={3/4}
+          fit="fill"
+          layout="constrained"
+          width={800}
+          quality={100}
+          />
+          </article>
+
+          <article className="article">
+          <StaticImage 
+          src='../images/portrait-gallery/dad.jpg'
+          alt="portrait"
+          aspectRatio={3/4}
+          fit="fill"
+          layout="constrained"
+          width={800}
+          quality={100}
+          />
+          </article>
+        
         
       </div>
     
