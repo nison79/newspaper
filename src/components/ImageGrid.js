@@ -20,9 +20,9 @@ const ImageGrid = () => {
         <Link to="/street">
           <article className="article">
           <StaticImage 
-          src='../images/gallery/thess.jpg'
+          src='../images/gallery/elli-parko.jpg'
           alt="portrait"
-          aspectRatio={4/3}
+          aspectRatio={3/4}
           fit="cover"
           layout="constrained"
           quality={100}
@@ -41,9 +41,9 @@ const ImageGrid = () => {
         <Link to="/portrait">
           <article className="article">
           <StaticImage 
-          src='../images/gallery/stella.jpg'
+          src='../images/portrait-gallery/stella-close.jpg'
           alt="portrait"
-          aspectRatio={4/3}
+          aspectRatio={3/4}
           fit="cover"
           quality={100}
           />

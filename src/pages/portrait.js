@@ -11,7 +11,7 @@ const portrait = () => {
       <StaticImage  
         src='../images/back.png' 
         placeholder="blurred"
-        layout="constrained"
+        layout="fixed"
         width={1500}
         
         /> 
